@@ -1,2 +1,5 @@
-U can read my blog about how to use these demo.
-CSDN blog(Chinese):http://blog.csdn.net/u012162613
+If you are confused about how to use these demo.
+U can refer to my CSDN blog(Chinese):http://blog.csdn.net/u012162613
+
+If there are any error,please point it out.Tanks!
+ 
