@@ -4,18 +4,18 @@
 using namespace cv;
 using namespace std;
 /*
-this is for command line£º
+this is for command line:
 imgRead_Show.exe D:\\1.jpg D:\\2.jpg
 */
 int main(int argc,char** argv){
-	/*Version£ºopencv2; Use£ºMat£¬imread(),nameWindow(),imshow()*/
+	/*Version:opencv2;Use:Mat,imread(),nameWindow(),imshow()*/
 	Mat img1=imread(argv[1]);  
 	if(!img1.data) {cout<<"error1";return -1;}  
 	namedWindow("image1");
 	imshow("image1",img1);
         waitKey(10);
 
-	/*Version£ºopencv; Use:IplImage£¬cvLoadImage(),cvNamedWindow(),cvShowImage()*/
+	/*Version:opencv; Use:IplImage,cvLoadImage(),cvNamedWindow(),cvShowImage()*/
 	IplImage* img2=cvLoadImage(argv[2]);
 	if(!img2)  {cout<<"error2";return -1;} 
 	cvNamedWindow("image2");

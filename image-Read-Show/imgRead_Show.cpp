@@ -5,14 +5,14 @@ using namespace cv;
 using namespace std;
 
 int main(){
-	/*Version£ºopencv2;Use£ºMat£¬imread(),nameWindow(),imshow()*/
+	/*Version:opencv2;Use:Mat,imread(),nameWindow(),imshow()*/
 	Mat img1=imread("D:\\1.jpg");   
 	if(!img1.data) {cout<<"error1";return -1;}  
 	namedWindow("image1");
 	imshow("image1",img1);
         waitKey(10);
 
-	/*Version£ºopencv; Use:IplImage£¬cvLoadImage(),cvNamedWindow(),cvShowImage()*/
+	/*Version:opencv; Use:IplImage,cvLoadImage(),cvNamedWindow(),cvShowImage()*/
 	IplImage* img2=cvLoadImage("D:\\2.jpg");
 	if(!img2)  {cout<<"error2";return -1;} 
 	cvNamedWindow("image2");
