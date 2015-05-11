@@ -19,4 +19,8 @@ This project will contain some OpenCV demo that we use frequently.
     
     简单的图像读取与显示，基于opencv，编程语言C++。详细介绍：[文章链接](http://blog.csdn.net/u012162613/article/details/38779445)
 
+- Video-FaceDetection
+
+	实时检测视频中的人脸，并用矩形框出，显示文字。
+
 
